@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: solid 1px black;
+}
+body {
+  min-height: 100svh;
+}
+img {
+  display: block;
+  max-width: 100%;
+  padding: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-card{
+
+}
+.card-container {
+  background-color: rgb(5, 5, 5);
+  color: rgb(221, 22, 188);
+  display: flex;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.detail-container {
+    padding: 30px
+
+}
+
+.card-details {
+    display: flex;
+    text-align: center;
+    gap: 40px
+    margin-block: 20px
+}
+
+.label
+.occpation{
+    color: green;
+}
